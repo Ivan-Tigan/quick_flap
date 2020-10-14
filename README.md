@@ -44,7 +44,7 @@ Predefined Nodes come with some very useful predefined functionality.
    - Label - display text
 - Node2D - 2D game nodes
   - Sprite - 2D image
-  - KinematicBody2D - 2d node with sophisticated movement logic - this is what you use when you want something to move.Requires Area2D for collisions.
+  - KinematicBody2D - 2d node with sophisticated movement logic via move_and_slide(...) function - this is what you use when you want something to move.Requires Area2D for collisions.
   - Area2D - Node that can detect overlaps with other Area2D nodes. Use area_entered signals. Requires CollisionShape2D to define its shape.
   - CollisionShape2D - define the shape of Area2D. Usually circle/capsule for player and rectangle for solids.
 - Spatial - like Node2D but for 3D
