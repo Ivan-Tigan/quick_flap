@@ -48,7 +48,7 @@ Predefined Nodes come with some very useful predefined functionality.
   - Area2D - Node that can detect overlaps with other Area2D nodes. Use area_entered signals. Requires CollisionShape2D to define its shape.
   - CollisionShape2D - define the shape of Area2D. Usually circle/capsule for player and rectangle for solids.
 - Spatial - like Node2D but for 3D
-- Node - Anything that does not fit into above categories. Usually provide some utility.
+- Other - Anything that does not fit into above categories. Usually provide some utility.
   - Timer - can run function every n seconds via the timeout signal
   - AnimationPlayer - can define animations that animate any property of any node over time and can be controlled through code.
   - AudioStreamPlayer (NOT AudioStreamPlayer2D) - plays a sound; for sound effects pick AudioStreamRandomPitch for Stream in the Inspector
